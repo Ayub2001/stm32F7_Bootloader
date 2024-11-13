@@ -21,7 +21,7 @@ This repository contains a custom bootloader developed for the STM32F767ZI Nucle
 
 Features
  - **UART Communication**[3](#references): Utilizes UART to interface with a host device for firmware upload.
- - **XMODEM Protocol**[1][2](#references): Implements XMODEM for reliable, packet-based data transmission,    ensuring accurate delivery and error detection.
+ - **XMODEM Protocol**[1](#references)[2](#references): Implements XMODEM for reliable, packet-based data transmission,    ensuring accurate delivery and error detection.
  - Supports 128 and 1024 bytes data length
  
  ### Project Organization
