@@ -25,9 +25,9 @@ Features
  - Supports 128 and 1024 bytes data length
  
  ### Project Organization
-* 📂 [Documents](https://github.com/mattsousaa/STM32F767ZI_Bootloader/tree/master/00_Documents) - Board and design reference manuals.
-* 📂 [Bootloader](https://github.com/mattsousaa/STM32F767ZI_Bootloader/tree/master/01_Bootloader) - Individual Bootloader project.
-* 📂 [Application](https://github.com/mattsousaa/STM32F767ZI_Bootloader/tree/master/02_User_app_STM32F7xxx) - User test application.
+* 📂 [Documents](https://github.com/Ayub2001/stm32F7_Bootloader/tree/master/Documents) - Board and design reference manuals.
+* 📂 [Bootloader](https://github.com/Ayub2001/stm32F7_Bootloader/tree/master/Bootloader) - Individual Bootloader project.
+* 📂 [Application](https://github.com/Ayub2001/stm32F7_Bootloader/tree/master/Application) - User test application.
 
 
 ### How it Works
