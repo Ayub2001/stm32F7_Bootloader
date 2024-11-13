@@ -76,9 +76,7 @@ And the vector table offset in system_stm32f7xx.c
 #define VECT_TAB_OFFSET  0x00008000U
 ```
 Last step is you have to generate a \*.bin file:
-```
-arm-atollic-eabi-objcopy -O binary "input.elf" "output.bin"
-```
+
 
 #### PC
 To update the firmware, you need a terminal software, that supports Xmodem. I recommend  Tera Term [[5]](#references).
