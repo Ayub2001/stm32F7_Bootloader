@@ -90,7 +90,7 @@ Configure them in the following way:
 - Stop bits: 1
 
 In Tera Term: select *File* >> *Transfer* >> *Xmodem* >> *Send* and then open the binary file.
-<img src="https://raw.githubusercontent.com/ferenc-nemeth/stm32-bootloader/master/Design/terminal-teraterm.png" > <br>
+<img src="https://github.com/Ayub2001/stm32F7_Bootloader/blob/master/Documents/Screenshot%202024-11-13%20223622.png" > <br>
 *Figure : Tera Term.*
 
 In case everything was fine, then the output should be the same:
