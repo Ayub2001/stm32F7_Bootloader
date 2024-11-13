@@ -1,0 +1,4 @@
+../Core/Src/flash.c:13:14:flash_erase	40	static
+../Core/Src/flash.c:48:14:flash_write	40	static
+../Core/Src/flash.c:83:6:flash_jump_to_app	16	static,ignoring_inline_asm
+../Core/Src/flash.c:104:17:GetSector	16	static
