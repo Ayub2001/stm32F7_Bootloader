@@ -20,8 +20,8 @@ UART bootloader for STM32F7 microcontroller.
 This repository contains a custom bootloader developed for the STM32F767ZI Nucleo board. The bootloader enables firmware updates over UART using the XMODEM protocol, making it suitable for applications requiring  serial-based firmware updates.
 
 Features
- - **UART Communication**[3]: Utilizes UART to interface with a host device for firmware upload.
- - **XMODEM Protocol**[1][2]: Implements XMODEM for reliable, packet-based data transmission,    ensuring accurate delivery and error detection.
+ - **UART Communication**[3](#references): Utilizes UART to interface with a host device for firmware upload.
+ - **XMODEM Protocol**[1][2](#references): Implements XMODEM for reliable, packet-based data transmission,    ensuring accurate delivery and error detection.
  - Supports 128 and 1024 bytes data length
  
  ### Project Organization
@@ -79,7 +79,7 @@ Last step is you have to generate a \*.bin file:
 
 
 #### PC
-To update the firmware, you need a terminal software, that supports Xmodem. I recommend  Tera Term [[5]](#references).
+To update the firmware, you need a terminal software, that supports Xmodem. I recommend  Tera Term [[4]](#references).
 
 Configure them in the following way:
 - Baud rate: 115200
@@ -108,7 +108,7 @@ Jumping to user application...
 I included the *.ioc file, so the drivers can be regenerated for any ST microntroller (if it has similar memory structure).
 If you have a non-ST microntroller, then the xmodem protocol can be reused, but nothing else.
 ### Acknowledgments
-Special thanks to Sigma Embedded [5]
+Special thanks to Sigma Embedded [5](#references)
 
 ### References
 [1] [Xmodem protocol with CRC](https://web.mit.edu/6.115/www/amulet/xmodem.htm)<br>
