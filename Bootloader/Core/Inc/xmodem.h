@@ -1,12 +1,10 @@
 /**
  * @file    xmodem.h
- * @author  Ferenc Nemeth
- * @date    21 Dec 2018
- * @brief   This module is the implementation of the Xmodem protocol.
+ * @author  Oubrahim Ayoub
+ * @date    20/10/2024
+ * @brief   This module is the header of xmodem.c.
  *
- *          Copyright (c) 2018 Ferenc Nemeth - https://github.com/ferenc-nemeth
  */
-
 #ifndef XMODEM_H_
 #define XMODEM_H_
 
