@@ -36,12 +36,10 @@ Features
 The bootloader was developed for the STM32F767ZI Nucleo board, requiring only the st-link on board  connected to the PD8 (RX) and PD9 (TX) pins(USART3).
 
 <img src="https://github.com/Ayub2001/stm32F7_Bootloader/blob/master/Documents/Screenshot%202024-11-13%20202444.png" > <br>
-*Figure 1. Pinout of the system.*
+*Figure : Pinout of the system.*
 
-Upon start-up, the system sends a welcome message through UART. Instead of checking the user button, the bootloader immediately enters bootloader mode, turns on the green (PC9) LED, and waits for a new binary file to be received. Once the file is received, the bootloader loads it, and if no update is in progress, it automatically jumps to the user application.
+Upon start-up, the system sends a welcome message through UART. Instead of checking the user button, the bootloader immediately enters bootloader mode, turns on the green  LED, and waits for a new binary file to be received. Once the file is received, the bootloader loads it, and if no update is in progress, it automatically jumps to the user application.
 
-<img src="https://github.com/Ayub2001/stm32F7_Bootloader/blob/master/Documents/Screenshot%202024-11-13%20204428.png" > <br>
-*Figure 2. Brief overview of the workflow of the system.*
 
 The Xmodem protocol is clearly explained in the [references](#references).
 
