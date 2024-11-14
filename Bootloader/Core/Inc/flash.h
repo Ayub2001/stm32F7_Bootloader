@@ -1,10 +1,9 @@
 /**
  * @file    flash.h
- * @author  Ferenc Nemeth
- * @date    21 Dec 2018
- * @brief   This module handles the memory related functions.
+ * @author  Oubrahim Ayoub
+ * @date    20/10/2024
+ * @brief   This module is the header of flash driver.
  *
- *          Copyright (c) 2018 Ferenc Nemeth - https://github.com/ferenc-nemeth
  */
 
 #ifndef FLASH_H_
