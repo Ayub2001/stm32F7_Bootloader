@@ -1,10 +1,9 @@
 /**
  * @file    uart.h
- * @author  Ferenc Nemeth
- * @date    21 Dec 2018
- * @brief   This module is a layer between the HAL UART functions and my Xmodem protocol.
+ * @author  Oubrahim Ayoub
+ * @date    20/10/2024
+ * @brief   This module is the header file for uart.c
  *
- *          Copyright (c) 2018 Ferenc Nemeth - https://github.com/ferenc-nemeth
  */
 
 #ifndef UART_H_
