@@ -1,3 +1,11 @@
+/**
+ * @file    flash.c
+ * @author  Oubrahim Ayoub
+ * @date    20/10/2024
+ * @brief   This module is the implementation of the flash driver.
+ *
+ */
+
 #include "flash.h"
 
 /* Function pointer for jumping to user application. */
